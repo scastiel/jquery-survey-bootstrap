@@ -1,0 +1,21 @@
+<div class="form-group" {{compareHook element}}>
+	<label class="control-label" for="input-{{element.name}}">
+		{{element.label}}
+		{{#if element.required}}
+			<span class="ast">*</span>
+		{{/if}}
+		<span class="colon">:</span>
+	</label>
+	<input type="email"
+		   class="form-control"
+		   name="{{element.name}}"
+		   id="input-{{element.name}}"
+		   placeholder="{{element.placeholder}}"
+		{{onChangeUpdateById element.id}}
+		{{#if element.required}}required{{/if}}
+		{{#ifElementData element.name}}
+		   value="{{elementData element.name}}"
+		{{/ifElementData}}
+			>
+	<span class="help-block"></span>
+</div>

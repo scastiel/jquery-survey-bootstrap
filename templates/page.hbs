@@ -1,0 +1,11 @@
+<div class="panel panel-default" {{compareHook element}}>
+	{{#if page.title}}
+		<div class="panel-heading">
+			<h2 class="panel-title">{{page.title}}</h2>
+		</div>
+	{{/if}}
+	<div class="panel-body">
+		{{renderElements page.elements}}
+		{{renderElements page.options}}
+	</div>
+</div>

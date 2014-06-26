@@ -1,0 +1,21 @@
+{
+  "name": "jquery-survey-bootstrap",
+  "version": "1.0.0",
+  "authors": [
+    "Sébastien Castiel <sebastien.castiel@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery.Survey": "https://github.com/jdarling/jQuery.Survey.git#~0.0.1",
+    "jquery": "~2.1.1",
+    "handlebars": "~1.3.0",
+    "bootstrap": "~3.2.0"
+  }
+}
