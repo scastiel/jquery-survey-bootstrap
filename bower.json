@@ -1,6 +1,7 @@
 {
   "name": "jquery-survey-bootstrap",
   "version": "1.0.0",
+  "description": "This is a small extension of the jQuery Survey plugin that redefines the default templates to use Bootstrap.",
   "authors": [
     "Sébastien Castiel <sebastien.castiel@gmail.com>"
   ],
